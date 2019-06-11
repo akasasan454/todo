@@ -6,6 +6,8 @@ use App\Http\Requests\CreateTask;
 use App\Http\Requests\EditTask;
 use App\Folder;
 use App\Task;
+use Illuminate\Support\Facades\Auth;
+
 
 class TaskController extends Controller
 {
