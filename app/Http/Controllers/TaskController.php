@@ -11,7 +11,7 @@ class TaskController extends Controller
 {
     public function index(int $id)
     {
-        $folders = Folder::all();
+        $folders = Auth::user()->folders()->get();
 
         $current_folder = Folder::find($id);
 
