@@ -2,11 +2,11 @@
 <html lang="ja">
 
 <head>
-  @include('head')
+  @include('share.head')
 </head>
 
 <body>
-  @include('header')
+  @include('share.header')
   <main>
     @yield('content')
   </main>
